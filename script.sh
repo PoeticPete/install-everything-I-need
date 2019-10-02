@@ -13,7 +13,7 @@ snap install postman
 sudo apt install snapd snapd-xdg-open
 
 # curl
-sudo apt install curl
+sudo apt install curl -y
 
 # pip3
 sudo apt-get update
@@ -27,3 +27,6 @@ pip3 install awscli --upgrade --user
 
 # vim
 sudo apt-get install vim -y
+
+# cat something into the clipboard
+sudo apt-get install xclip -y
